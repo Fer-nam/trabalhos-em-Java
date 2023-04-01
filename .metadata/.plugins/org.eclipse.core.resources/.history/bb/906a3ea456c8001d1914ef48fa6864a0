@@ -1,0 +1,23 @@
+package model.services;
+
+import java.time.LocalDate;
+
+import model.entities.Contract;
+
+public class ContratService {
+
+	private OnlinePaymentService onlinePaymentService;
+	
+	
+	
+	public ContratService(OnlinePaymentService onlinePaymentService) {
+		this.onlinePaymentService = onlinePaymentService;
+	}
+	
+
+
+
+	public void processContract(Contract contract,  int months) {
+		contract.getInstallments().add(new Installments(LocalDate.of(2018, 7, 25)));
+	}
+}

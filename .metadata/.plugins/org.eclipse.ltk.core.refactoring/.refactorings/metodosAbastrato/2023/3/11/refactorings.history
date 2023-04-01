@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;entities.Rectangule&apos; to &apos;Rectangle&apos;&#x0D;&#x0A;- Original project: &apos;metodosAbastrato&apos;&#x0D;&#x0A;- Original element: &apos;entities.Rectangule&apos;&#x0D;&#x0A;- Renamed element: &apos;entities.Rectangle&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Rectangule&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;entities{Rectangule.java[Rectangule" matchStrategy="1" name="Rectangle" qualified="false" references="true" similarDeclarations="false" stamp="1678921447213" textual="false" version="1.0"/>
+</session>

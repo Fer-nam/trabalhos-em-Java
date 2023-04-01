@@ -1,0 +1,29 @@
+package application;
+
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Set<String> set = new LinkedHashSet<>();
+		set.add("Tv");
+		set.add("Tablet");
+		set.add("Notebook");
+		
+
+		//System.out.println(set.contains("Notebook"));
+		//set.remove("Tablet");
+		//"->" significa tal que
+		//Remove todos que tem mais de 3 caracteres no nome
+		//set.removeIf(x -> x.length() >= 3 );
+		set.removeIf(x -> x.charAt(0) == 'T');
+
+		for (String p : set) {
+			System.out.println(p);
+		}
+	}
+
+}
